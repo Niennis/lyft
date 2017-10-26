@@ -1,3 +1,374 @@
 /*
  * Estilos de tu proyecto
  */
+
+body{
+	height:100%;
+	position:absolute;
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	width:100%;
+	height:112px;
+	background-color: #2E003F ;
+	position: fixed;
+	z-index: 55555555;
+
+}
+
+/* INICIO HEADER  */
+.menu{
+	width:1288px;
+	color:white;
+	position: fixed;
+	top:35px; /*42*/
+}
+
+.logo{
+	width:62px;
+	position:absolute;
+	top:5px;
+	left: 233px;
+	z-index: 2;
+}
+
+nav{
+	margin:0;
+	padding: 0;
+	z-index: 55555555;
+	position: relative;
+	right:150px;
+}
+
+ ul{
+ 	padding: 0;
+ 	margin: 0;
+	text-align: right;
+	font-size: 18px;
+ }
+ 
+ ul li{
+ 	padding:16px 24px;
+ 	list-style: none;
+ 	display: inline-block;
+ }
+
+ ul li:last-child{
+	border:1px solid white;
+	border-radius: 8px;
+	padding:10px 16px;
+ }
+
+/* FIN HEADER */
+
+/* INICIO INTRO */
+.intro{
+	width:100%;
+	height:634px;
+}
+
+ .back{
+ 	width:1288px;
+ 	margin-top:-83px;
+ 	z-index: 1;
+ }
+
+.white_box{
+	width:535px;
+	height:420px;
+	background-color:white;
+	position: relative;
+	top:-550px;
+	left:753px;
+	z-index: 3;
+}
+
+.white_box h2{
+	width:290px;
+	font-size: 40px;
+	color:#352384;
+	line-height: 12px;
+	position: relative;
+	top:80px;
+	left:65px;
+}
+
+.su_drive{
+	width:290px;
+	font-size: 14px;
+	color:#352384;
+	letter-spacing:1.5px;
+	position: relative;
+	top:70px;
+	left:65px;
+}
+
+.intro .white_box input{
+	font-size: 16px;
+	line-height: 24px;
+	color:#352384;
+	position: relative;
+	top:80px;
+	left:65px;
+	border:none;
+}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #CDD0E2;
+	letter-spacing:1.5px;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: #CDD0E2;
+	letter-spacing:1.5px;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: #CDD0E2;
+	letter-spacing:1.5px;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	  color: #CDD0E2;
+	letter-spacing:1.5px;
+	}
+
+.intro .white_box hr{
+	width:420px;
+	position: relative;
+	top:78px;
+}
+
+.driver{
+	height:50px;
+	width:184px;
+	background-color: #FF00BE;
+	position: relative;
+	top:85px;
+	left:65px;
+	border-radius: 5px;
+	border:none;
+}
+
+.driver p{
+	color:white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.su_ride{
+	position: relative;
+	top:85px;
+	left:80px;
+	color:grey;
+}
+
+.intro .white_box .little{
+	width:284px;
+	font-size: 9.6px;
+	color:#B3B8C8;
+	position: relative;
+	top:85px;
+	left:65px;
+}
+
+/* FIN INTRO*/
+/* INICIO DESCRIPTION */
+.description{
+	width:100%;
+	height:600px;
+	/*background: linear-gradient(to bottom, #770085, #3b0068);*/
+	z-index: 10;
+	position: relative;
+	top:-98px;
+/*código para crear gradiente*/
+	background: rgba(119,0,133,0);
+	background: -moz-linear-gradient(top, rgba(119,0,133,0) 0%, rgba(112,0,130,1) 11%, rgba(58,0,104,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(119,0,133,0)), color-stop(11%, rgba(112,0,130,1)), color-stop(100%, rgba(59,0,104,1)));
+	background: -webkit-linear-gradient(top, rgba(119,0,133,0) 0%, rgba(112,0,130,1) 11%, rgba(58,0,104,1) 100%);
+	background: -o-linear-gradient(top, rgba(119,0,133,0) 0%, rgba(112,0,130,1) 11%, rgba(58,0,104,1) 100%);
+	background: -ms-linear-gradient(top, rgba(119,0,133,0) 0%, rgba(112,0,130,1) 11%, rgba(58,0,104,1) 100%);
+	background: linear-gradient(to bottom, rgba(119,0,133,0) 0%, rgba(112,0,130,1) 11%, rgba(58,0,104,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#770085', endColorstr='#3B0068', GradientType=0 );
+	
+	color: white;
+}
+
+.description h2{
+	width:420px;
+	position: relative;
+	top:60px;
+	left:155px;
+	margin-bottom:5px;
+	font-size: 28px;
+	/*
+	padding: 60px 0 0 150px;*/
+}
+
+.description p{
+	width:420px;	
+	position: relative;
+	top:60px;
+	left:155px;
+	margin-bottom:65px;
+	font-size: 16px;
+
+	/*padding: 0 0 0 150px;*/
+
+}
+
+.description img{
+	width:450;
+	float:right;
+	margin-top: -450px;
+}
+
+
+/* FIN DESCRIPTION */
+
+
+/* INICIO VIDEOS */
+
+.videos{
+	width:100%;
+	height: ;
+	position:relative;
+	top:-98px;
+}
+
+.vid_1, .vid_2, vid_3{
+	width:100%;
+	height:480px;
+}
+
+.watch_1{
+	width:340px;
+	height: 480px;
+	padding:20px 0 0 60px;
+	margin:0;
+}
+
+.videos a{
+	font-size: 14px;
+	text-decoration: none;
+	position: relative
+}
+
+.videos h2{
+	font-size: 28px;
+	margin-top:-5px;
+} 
+
+.videos p{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.videos .vid_1 iframe{
+	width:854px;
+	height: 480px;
+	float: right;
+	position: relative;
+	top:-500px;
+}
+
+.videos .vid_2 iframe{
+	width:854px;
+	height: 480px;
+	float: left;
+	position: relative;
+	top:-510px;
+}
+
+.watch_2{
+	width:340px;
+	height: 480px;
+	padding:0 0 0 880px;
+	margin-top:-470px;
+	float:right;
+}
+
+.watch_3{
+	width:340px;
+	height: 480px;
+	padding:20px 0 0 60px;
+	position:relative;
+	top:-470px;
+}
+
+.videos .vid_3 iframe{
+	width:854px;
+	height: 480px;
+	float: right;
+	position: relative;
+	top:-510px;
+}
+/* FIN VIDEOS */
+
+
+/* INICIO FOOTER */
+
+.footer{
+	width:100%;
+	height:544px;
+	background-color: #383349;
+	position:relative;
+	top:-118px;
+	color:white;
+}
+
+.footer table{
+	width:80%;
+	position: relative;
+	top:-430px;
+	left:120px;
+}
+
+.footer a{
+	color:white;
+	text-decoration:none;
+	font-weight: normal;
+}
+
+.footer a:hover{
+	color:#FF00BE;
+	text-decoration:underline;
+}
+
+.footer img{
+	width:130px;
+	display:block;
+	padding:20px;
+	margin:0 -200px 0 300px;
+}
+
+.footer .icons{
+	width:60%;
+	position:relative;
+	color:white;
+	top:-330px;
+	left:500px;
+}
+
+.fa-lg{
+	padding:0 20px;
+}
+
+.footer hr{
+	width:50%;
+	border:1px solid white;
+	margin: auto; 
+	position: relative;
+	top:-316px;
+}
+
+#privacy{
+	font-size: 14px;
+	position: relative;
+	top:-310px;
+	text-align: center;
+}
+
+
+
