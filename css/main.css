@@ -115,6 +115,9 @@ nav{
 	border:none;
 }
 
+	/* Etiqueta que permite cambiar el color de la fuente
+	dentro del input */
+
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	  color: #CDD0E2;
 	letter-spacing:1.5px;
@@ -131,6 +134,7 @@ nav{
 	  color: #CDD0E2;
 	letter-spacing:1.5px;
 	}
+	/* fin etiqueta de input*/
 
 .intro .white_box hr{
 	width:420px;
@@ -174,6 +178,7 @@ nav{
 }
 
 /* FIN INTRO*/
+
 /* INICIO DESCRIPTION */
 .description{
 	width:100%;
